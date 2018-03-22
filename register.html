@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="dist/css/common.css">
+	<link rel="stylesheet" href="dist/css/register.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="header">
+		<div class="header-top">
+			<h1 class="site-logo">
+				<a href="">
+					<img src="img/logo.png" alt="">
+				</a>
+			</h1>
+			<div class="logo-now">
+				我已经注册，现在就
+				<a href="javascript:;">登录</a>
+			</div>
+		</div>
+	</div>
+	<!-- 注册页body -->
+	<div class="register-bg">
+		<div class="register-box">
+			<div class="register-layout">
+				<div class="left">
+					<div class="reg-mode">
+						<ul class="tabs-nav">
+							<li><a class="login" href="javascript:;">手机注册</a></li>
+						</ul>
+						<div class="tabs-content">
+							<form action="" class="form-reg">
+								<dl>
+									<dt>手机号 :</dt>
+									<dd><input name="mobile" type="text" class="text" id="mobile" placeholder="请输入手机号码" autocomplete="off" maxlength="11"></dd>
+								</dl>
+								<div class="code-div">
+									<dl class="captcha">
+										<dt>验证码 :</dt>
+										<dd class=""><input id="captchaMobile" class="text w100" type="text" name="captcha" maxlength="4" placeholder="输入验证码" autocomplete="off"></dd>
+									</dl>
+									<span>
+										<a href="JavaScript:void(0);" nc_type="changeCaptcha" onclick="javascript:document.getElementById('codeimageMobile').src='https://www.cnrmall.com/captcha/getcaptcha?t='+Math.random()" class="code-pic">看不清，更换一张</a>
+									</span>
+								</div>
+								<div class="clause-div">
+									<p>
+										<input type="checkbox" checked="checked" value="1" class="checkbox" id="mobileAgreeClause" name="agreeClause">阅读并同意<a title="阅读并同意" class="agreement" href="javascript:void(0);" nc_type="btnShowClauseDialog">《服务协议》</a>
+									</p>
+								</div>
+								<div class="submit-div">
+									<button class="submit">下一步</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="reister-after">
+						<h4>注册之后你可以</h4>
+						<ol>
+							<li class="ico1">
+								<i></i>
+								购买商品支付订单
+							</li>
+							<li class="ico2">
+								<i></i>
+								收藏商品收藏店铺
+							</li>
+							<li class="ico3">
+								<i></i>
+								安全交易诚信无忧
+							</li>
+							<li class="ico4">
+								<i></i>
+								会员等级享受特权
+							</li>
+							<li class="ico5">
+								<i></i>
+								交易评价站外分享
+
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="wrapper">
+			<p>
+				<a href="javascript:;">首页</a> |
+				<a href="javascript:;">招商合作</a> |
+				<a href="javascript:;">关于央广购物</a> |
+				<a href="javascript:;">联系我们</a> |
+				<a href="javascript:;">成为供应商</a> |
+				<a href="javascript:;">招贤纳士</a>
+			</p>
+			<p>
+				<i></i>
+				京公网安备：11011502002190&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">京ICP备10038858号</a>&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>
+			</p>
+			<p>
+				Copyright
+				<em style="font-family:Arial,Verdana; margin:0 4px">©</em>2010-2017 cnrmall.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;服务热线：4008-518-518
+			</p>
+			<ul class="f-img">
+				<li  class="img01"><a href="javascript:;"></a></li>
+				<li class="img02"><a href="javascript:;" ></a></li>
+				<li class="img03"><a href="javascript:;" ></a></li>
+				<li  class="img04"><a href="javascript:;"></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 弹出框 -->
+	<div class="popup-bg">
+		
+	</div>
+</body>
+<script type="text/javascript" src="dist/js/login.js"></script>
+<script type="text/javascript">
+	var oBtn1 = document.getElementsByClassName('agreement')[0]
+	oBtn1.onclick = function(){
+		Popup.show({
+			title:'天气预报',
+			content:'今天下雪啦'
+		});
+	};
+</script>
+</html>

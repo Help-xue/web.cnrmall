@@ -1,0 +1,30 @@
+{
+  "name": "cnrmall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Help-xue/web.cnrmall.git"
+  },
+  "author": "xuejiangqiang1709",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Help-xue/web.cnrmall/issues"
+  },
+  "homepage": "https://github.com/Help-xue/web.cnrmall#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-connect": "^5.5.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

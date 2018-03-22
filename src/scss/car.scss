@@ -1,0 +1,275 @@
+// 头部样式
+body{
+	background: #fff;
+}
+.header-top{
+	width: 100%;
+	height: 40px;
+	background:#f6f6f6;
+	border-bottom: 1px solid #e9e9e9;
+
+}
+.header-m{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}	
+.header-m .left{
+	width:57%;
+	height: 40px;
+	float: left;
+
+}
+.header-m .right{
+	width:41%;
+	height: 40px;
+	float:right;
+
+}
+.header-m .right .login{
+	float: left;
+	margin-right:6px; 
+	line-height: 40px;
+	font-size: 12px;
+}
+.header-m .right .login a{
+	margin: 0 4px;
+	color: #555;
+}
+.header-m .right .nav-menu ul li span{
+	margin:8px 4px;
+	width: 6px;
+	height: 3px;
+	float: right;
+	position: absolute;
+	right: -4px;
+	top:2px;
+	background: url(../../img/top_bg.png) no-repeat 0px 0px;
+}
+.header-m .right .login .sign{
+	color: #FF5B57!important;
+}
+.header-m .right .nav-menu{
+	float: left;
+	font-size: 12px;
+	.nav{
+	
+		li{
+			vertical-align: middle;
+		    letter-spacing: normal;
+		    word-spacing: normal;
+		    display: inline-block;
+		    height: 12px;
+		    margin: 14px 0 13px 0;
+		    position: relative;
+		    padding: 0 4px;
+		    z-index: 999;
+		    border-left: solid 1px #E1E1E1;
+		    a{	display: inline-block;
+		    	margin-top:-7px;
+		    	padding:0 8px;
+		    	color: #777;
+		    	vertical-align: middle;	
+		    }
+		}
+		.nav-select{
+			width: 70px;
+			overflow: hidden;
+			font-family: "宋体";
+		    position: absolute;
+		    z-index: 1;
+		   text-align: center;
+		   line-height: 24px;
+		    opacity: 0;
+		    top:-8px;
+		    left: 2px;
+		    border: solid 1px #ccc;
+		    background-color: #FFF;
+		    transition: .2s ease-out;
+		    a{
+		    	color: #777;
+		    }
+		}
+	}
+}
+.nav li:hover .nav-select{
+	opacity: 0;
+}
+
+.header-m .right .call-center{
+	margin-top: 6px;
+	width: 71px;
+	line-height:28px;
+	border:1px solid #e4e4e4;
+	border-top: 0;
+}
+.right .new-home img{
+	vertical-align: middle;
+}
+.right .new-home a{
+	color: #777;
+}
+.right .new-home{
+	margin-left: 16px;
+	float: left;
+	font-size: 12px;
+	line-height: 40px;
+}
+.header-warp{
+	width: 100%;
+	height: 110px;
+	background: #fff;
+}
+.header-warp .inner{
+	width: 1200px;
+	height: 110px;
+	margin: 0 auto;
+	border-bottom:1px solid red;
+
+}
+.header-warp .inner .site-logo{
+	width: 240px;
+    height: 68px;
+    float: left;
+    margin: 22px 80px auto 0;
+}
+.header-warp .inner .site-logo img{
+	width: 240px;
+	height: 68px;
+}
+.inner{
+		.car-top{
+			width: 640px;
+		    height: 70px;
+		    float: right;
+		    margin: 15px 0;
+		    .current{
+		    	p{
+		    	color: #616161;
+		    	}
+		    	em{
+    			background-color: #616161;
+			    border-color: #616161;
+			    box-shadow: 0 0 1px 3px #E1E1E1;
+		    	}
+		    	.hr{
+		    		 background-color: #616161;
+		    	}
+		    }
+		    li{
+		    	font-size: 12px;
+			    vertical-align: top;
+			    letter-spacing: normal;
+			    word-spacing: normal;
+			    display: inline-block;
+			    width: 25%;
+			    height: 70px;
+			    position: relative;
+			    z-index: 1;
+			    float: left;
+		    i{
+				background: #FFF url(../../img/nc_cart_pic.png) no-repeat;
+			    width: 30px;
+			    height: 30px;
+			    margin-left: -15px;
+			    position: absolute;
+			    z-index: 2;
+			    top: 0;
+			    left: 50%;
+		     }
+		    .step1 {
+    		background-position: 0 0;
+			}
+			.step2 {
+    		 background-position: -30px 0;
+
+			}
+			.step3 {
+    		 background-position: -60px 0;
+
+			}
+			.step4 {
+    		 background-position: -90px 0;
+
+			}
+
+	      .hr{
+		    	background-color: #DDD;
+			    width: 100%;
+			    height: 1px;
+			    border: none 0;
+			    position: absolute;
+			    z-index: 1;
+			    top: 40px;
+		    }
+	}
+	em{
+	background-color: #FFF;
+    width: 5px;
+    height: 5px;
+    margin-left: -3px;
+    border: solid 1px #CCC;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+    top: 37px;
+    left: 50%;
+	}
+	p{
+	color: #CCC;
+    text-align: center;
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+	}
+  }
+}
+.car-main{
+	position: relative;
+	width: 1200px;
+	margin:0 auto;
+	.car-title{
+		height: 50px;
+		padding: 15px 0;
+	    border-bottom: solid 1px #F5F5F5;
+	    h3{
+	    	font-size: 24px;
+	    	line-height: 30px;
+	    	color:#616161;
+	    	font-weight: 100;
+	    }
+	    h5{
+	    	font-size: 12px;
+	    	line-height: 20px;
+	    	font-weight: 100;
+	    	color:#bfbfbf;
+	    }
+	}
+	.car-status{
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 50%;
+    margin-left: 370px;
+    font-size: 12px;
+    .bar{
+    	position: relative;
+    z-index: 1;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 5px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #E1E1E1;
+    }
+    .sum{
+    	font-family: Tahoma;
+    	color: #616161;
+    	}
+	}
+}

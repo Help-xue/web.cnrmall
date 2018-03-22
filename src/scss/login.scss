@@ -1,0 +1,285 @@
+/* 注册页头部 */
+.header{
+	width: 99%;
+	overflow: hidden;
+    border-bottom: solid 2px #F5F5F5;
+    margin: 5px auto 0 auto;
+	.header-top{
+		width: 1000px;
+		overflow: hidden;
+		margin:0 auto;
+		.site-logo {
+	    width: 240px;
+	    height: 68px;
+	    float: left;
+	    margin: 22px 80px auto 0;
+	    	img{
+	    		width: 240px;
+	    		height: 68px;
+	    	}
+		}
+		.logo-now{
+			font-size: 14px;
+		    color: #AAA;
+		    line-height: 24px;
+		    float: right;
+		    height: 24px;
+		    margin-top: 40px;
+		    a{
+		    	font-weight: 600;
+		    	margin-left:4px;
+		    	color:#06c;
+		    	&:hover{
+		    		    color: #C81623;
+		    	}
+		    }
+		}
+	}
+
+}
+.logo-now{
+	span{
+		vertical-align: top;
+    	display: inline-block;
+	}
+	.avater{
+		width: 40px;
+	    height: 40px;
+	    margin-right: 6px;
+	    border-radius: 100%;   
+	}
+	img{
+    	width: 40px;
+    	height: 40px;
+    	border-radius: 100%;
+		vertical-align: middle;
+	    }
+}
+/* body部分开始 */
+.login-layout{
+	width: 1000px;
+    margin: 20px auto;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+    min-height: 600px;
+    .left-pic{
+    	width: 450px;
+	    height: 350px;
+	    float: left;
+	    margin: 30px 0;
+	    position: relative;
+	    z-index: 1;
+    }
+    .nc-login{
+	    width: 440px;
+	    padding: 19px 19px 29px 19px;
+	    border: solid 1px #E6E6E6;
+	    border-radius: 5px;
+	    float: right;
+	    position: relative;
+	    z-index: 1;
+	    	.arrow{
+	    		width: 17px;
+	    		height: 9px;
+	    		background: url(../../img/login_pic.png) no-repeat -280px 0;
+	    		position: absolute;
+    		    z-index: 1;
+				top: -9px;
+				left: 160px;
+	    	}
+	    
+}
+.login-mode{
+	.tb{
+	    	border-bottom: 1px solid #e6e6e6;
+	    	overflow: hidden;
+	    	li{
+	    		float: left;
+	    		width: 50%;
+	    		ertical-align: bottom;
+			    letter-spacing: normal;
+			    word-spacing: normal;
+			    text-align: center;
+			    display: inline-block;
+			    height: 40px;
+			    margin-bottom: -1px;
+	    		a{
+					position: relative;
+	    			font-size: 18px;
+					color: #999;
+					line-height: 24px;
+					padding-bottom: 13px;
+					z-index: 1;
+					font-family: "微软雅黑";
+
+	    		}
+	    	}
+	    }
+    }
+}
+.tb {
+	.active{
+	color: #FF500B;
+	display: block;
+	border-bottom: 3px solid #ff500b;	
+	}
+	i{	
+			width:0;
+			height: 0px;
+			border:7px solid transparent;
+			border-top-color:#ff500b;
+			display: block;
+			position: absolute;
+			z-index: 4;
+			left:26%;
+			margin-left:-4px;
+			bottom:424px;
+		}
+}
+.login-form{
+	margin-top: 30px;
+    padding: 0 40px 20px 40px;
+    .account{
+    	width: 350px;
+    	height: 52px;
+    	text-align: center;
+    	line-height: 52px;
+    	border:1px solid #e6e6e6;
+    	border-bottom:0;
+    	span{
+    		width: 108px;
+    		height: 52px;
+    		line-height: 52px;
+    		display:block;
+    		float: left;
+    		color:#666;
+    		font-size:14px;
+    		vertical-align: middle;
+    	}
+    	input{
+    		float: left;
+    		height: 48px;
+    		width:242px;
+    		margin:1px auto;
+    		vertical-align: middle;
+    		border:0;
+    	}
+    	.code-yzm{
+    		width: 108px;
+    	}
+    	
+    }
+    .code{
+    		width: 240px;
+    		text-align: center;
+    		line-height: 52px;
+    		float: left;
+    		border:1px solid #e6e6e6;
+    		position: relative;
+    	.code-b{
+    	width: 122px;
+	    height: 54px;
+	    position: absolute;
+	    z-index: 1;
+	    top: -1px;
+	    right:-112px;
+	    cursor: pointer;
+	    background: #eee;
+	    img{
+				text-align: center;
+				vertical-align: middle;
+	    	}
+    	}	
+    	.code-pic{
+		font-size: 14px;
+	    line-height: 52px;
+	    color: #FFf;
+	    background: rgba(0,0,0,0.5);
+	    text-align: center;
+	    width: 122px;
+	    height: 54px;
+	    position: absolute;
+	    z-index: 1;
+	    top: -1px;
+	    right:-111px;
+	    cursor: pointer;
+	    display:none;	
+		}
+		
+    }
+    .hidle-div{
+    	margin-top:68px;
+    	line-height: 24px;
+    	font-size:12px;
+    	color:#999;
+    	.checkbox{
+    		 vertical-align: middle;
+		    display: inline-block;
+		    margin-right: 4px;
+    	}
+    	.forget{
+    		float:right;
+    		margin-right: 8px;
+    		color:#06c;
+    		&:hover{
+    			color: #C81623;
+    		}
+    	}
+    }
+    .submit-div {
+    margin-top: 15px;
+    	.submit {
+	    font-family: "microsoft yahei";
+	    font-size: 16px;
+	    font-weight: 600;
+	    color: #FFF;
+	    background-color: #FF500B;
+	    width: 354px;
+	    height: 42px;
+	    border: solid 1px #F15C18;
+	    border-radius: 3px;
+	    cursor: pointer;
+	    outline:0;
+		}
+	}
+	.login-api{
+		width: 340px;
+    	margin: 20px auto;
+    	h4{
+    		font-size: 12px;
+	    line-height: 20px;
+	    color: #333;
+	    font-weight: 600;
+	    height: 20px;
+	    margin-bottom: 10px;
+    	}
+    	.wx{
+    		font-size: 12px;
+		    text-decoration: none;
+		    color: #AAA;
+		    vertical-align: top;
+		    display: inline-block;
+		    height: 32px;
+		    margin-right: 24px;
+		    i{
+		    	background: url(../../img/login_pic.png) no-repeat;
+			    vertical-align: middle;
+			    display: inline-block;
+			    width: 32px;
+			    height: 32px;
+			    margin-right: 6px;
+			    font-style:normal;
+			    background-position: -64px 0;
+			    &:hover{
+		    	background-position: -160px 0;
+		    	color:#f45;
+		      }
+		    }
+		    
+    	}
+	}   
+}
+.code:hover .code-pic{
+	display:block;
+}

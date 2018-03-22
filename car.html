@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的购物车</title>
+	<link rel="stylesheet" href="dist/css/common.css">
+	<link rel="stylesheet" href="dist/css/reset.css">
+	<link rel="stylesheet" href="dist/css/carts.css">
+</head>
+<body>
+	<!-- 头部 -->
+<div class="header-top">
+	<div class="header-m">
+		<div class="left"></div>
+		<div class="right">
+			<div class="login">
+				<a href="javascript:;">欢迎光临央广购物</a>
+				<a href="javascript:;" class="sign">[退出]</a>
+			</div>
+			<div class="nav-menu">
+				<ul class="nav">
+					<li>
+						<a href="javascript:;">我的订单
+						</a>
+						<span></span>
+						<div class="nav-select">
+							<a href="javascript:;">我的订单</a>
+							<span></span>
+							<a href="javascript:;">待付款订单</a>
+							<a href="javascript:;">待发货订单</a>
+							<a href="javascript:;">待发货订单</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;">我的订单
+						</a>
+						<span></span>
+						<div class="nav-select">
+							<a href="javascript:;">我的订单</a>
+							<span></span>
+							<a href="javascript:;">待付款订单</a>
+							<a href="javascript:;">待发货订单</a>
+							<a href="javascript:;">待发货订单</a>
+						</div>
+					</li>
+					<li>
+						<a href="javascript:;">我的订单
+						</a>
+							<span></span>
+						<div class="nav-select">
+							<a href="javascript:;">我的订单</a>
+							<span></span>
+							<a href="javascript:;">待付款订单</a>
+							<a href="javascript:;">待发货订单</a>
+							<a href="javascript:;">待发货订单</a>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+			<div class="new-home">
+				<i><img src="img/kh.png" alt=""></i>
+				<a href="javascript:;">成为供应商</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- logo部分 -->
+<div class="header-warp">
+	<div class="inner">
+		<h1 class="site-logo">
+			<a href="javascript:;">
+				<img src="img/logo.png" alt="">
+			</a>
+		</h1>
+		<ul class="car-top">
+			<li class="current">
+				<i class="step1"></i>
+				<p>我的购物车</p>
+				<em></em>
+				<div class="hr"></div>
+			</li>
+			<li>
+				<i class="step2"></i>
+				<p>确认订单/结算</p>
+				<em></em>
+				<div class="hr"></div>
+			</li>
+			<li>
+				<i class="step3"></i>
+				<p>生成订单/支付</p>
+				<em></em>
+				<div class="hr"></div>
+			</li>
+			<li>
+				<i class="step4"></i>
+				<p>完成支付/等待支付</p>
+				<em></em>
+				<div class="hr"></div>
+			</li>
+		</ul>
+	</div>	
+</div>
+<!-- car body部分	 -->
+<div class="car-main">
+	<div class="car-title">
+		<h3>我的购物车</h3>
+		<h5>查看购物车中所添加的商品；增加减少数量、并勾选确认想要购买的商品进入下一步操作。</h5>
+	</div>
+	<div class="car-status">
+		购物车状态:
+		<span class="bar"></span>
+		<span class="sum">3/100</span>
+	</div>
+	<!-- 商品信息部分 -->
+	<section class="cartMain">
+	<div class="cartMain_hd">
+		<ul class="order_lists cartTop">
+			<li class="list_chk">
+				<!--所有商品全选-->
+				<input type="checkbox" id="all" class="whole_check">
+				<label for="all"></label>
+				全选
+			</li>
+			<li class="list_con">商品信息</li>
+			<li class="list_info">商品参数</li>
+			<li class="list_price">单价</li>
+			<li class="list_amount">数量</li>
+			<li class="list_sum">金额</li>
+			
+		</ul>
+	</div>
+
+	<div class="cartBox">
+		<div class="shop_info">
+			<div class="all_check">
+				<!--店铺全选-->
+				<input type="checkbox" id="shop_a" class="shopChoice">
+				<label for="shop_a" class="shop"></label>
+			</div>
+			<div class="shop_name">
+				店铺：<a class="store-name" href="javascript:;">深圳市加枫红进口酒类专营店
+					<i class="im_common offline"></i>
+				</a>
+			</div>
+		</div>
+		<div class="order_content">
+			<ul class="order_lists">
+				<li class="list_chk">
+					<input type="checkbox" id="checkbox_2" class="son_check">
+					<label for="checkbox_2"></label>
+				</li>
+				<li class="list_con">
+					<div class="list_img"><a href="javascript:;"><img src="img/car3.jpg" alt=""></a></div>
+					<div class="list_text"><a href="javascript:;" target="_blank">法国巴图波尔多干红葡萄酒原瓶原装进口双支礼袋装</a></div>
+				</li>
+				<li class="list_info">
+					<p>规格：默认</p>
+					<p>颜色：深红色</p>
+				</li>
+				<li class="list_price">
+					<p class="price">￥980</p>
+				</li>
+				<li class="list_amount">
+					<div class="amount_box">
+						<a href="javascript:;" class="reduce reSty">-</a>
+						<input type="text" value="1" class="sum">
+						<a href="javascript:;" class="plus">+</a>
+					</div>
+				</li>
+				<li class="list_sum">
+					<p class="sum_price">￥980</p>
+				</li>
+				<li class="list_op">
+					<p class="del"><a href="javascript:;" class="delBtn">删除商品</a></p>
+				</li>
+			</ul>
+			<ul class="order_lists">
+				<li class="list_chk">
+					<input type="checkbox" id="checkbox_3" class="son_check">
+					<label for="checkbox_3"></label>
+				</li>
+				<li class="list_con">
+					<div class="list_img"><a href="javascript:;"><img src="img/car2.jpg" alt=""></a></div>
+					<div class="list_text"><a href="javascript:;" target="_blank">法国巴图波尔多干红葡萄酒原瓶原装进口双支礼袋装</a></div>
+				</li>
+				<li class="list_info">
+					<p>规格：默认</p>
+					<p>颜色：深红色</p>
+				</li>
+				<li class="list_price">
+					<p class="price">￥780</p>
+				</li>
+				<li class="list_amount">
+					<div class="amount_box">
+						<a href="javascript:;" class="reduce reSty">-</a>
+						<input type="text" value="1" class="sum">
+						<a href="javascript:;" class="plus">+</a>
+					</div>
+				</li>
+				<li class="list_sum">
+					<p class="sum_price">￥780</p>
+				</li>
+				<li class="list_op">
+					<p class="del"><a href="javascript:;" class="delBtn">删除商品</a></p>
+				</li>
+			</ul>
+			<ul class="order_lists">
+				<li class="list_chk">
+					<input type="checkbox" id="checkbox_6" class="son_check">
+					<label for="checkbox_6"></label>
+				</li>
+				<li class="list_con">
+					<div class="list_img"><a href="javascript:;"><img src="img/car1.png" alt=""></a></div>
+					<div class="list_text"><a href="javascript:;" target="_blank">法国巴图波尔多干红葡萄酒原瓶原装进口双支礼袋装</a></div>
+				</li>
+				<li class="list_info">
+					<p>规格：默认</p>
+					<p>颜色：深红色</p>
+				</li>
+				<li class="list_price">
+					<p class="price">￥180</p>
+				</li>
+				<li class="list_amount">
+					<div class="amount_box">
+						<a href="javascript:;" class="reduce reSty">-</a>
+						<input type="text" value="1" class="sum">
+						<a href="javascript:;" class="plus">+</a>
+					</div>
+				</li>
+				<li class="list_sum">
+					<p class="sum_price">￥180</p>
+				</li>
+				<li class="list_op">
+					<p class="del"><a href="javascript:;" class="delBtn">删除商品</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--底部-->
+<div class="bar-wrapper">
+		<div class="bar-right">
+			<div class="piece">已选商品<strong class="piece_num">0</strong>件</div>
+			<div class="totalMoney">共计: <strong class="total_text">0.00</strong></div>
+			<div class="calBtn"><a href="javascript:;">结算</a></div>
+		</div>
+</div>
+</section>
+<section class="model_bg"></section>
+<section class="my_model">
+	<p class="title">删除宝贝<span class="closeModel">X</span></p>
+	<p>您确认要删除该宝贝吗？</p>
+	<div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+</section>
+</div>
+<!-- 浏览记录 -->
+
+<!-- 底部footer -->
+<div class="footer">
+		<div class="wrapper">
+			<p>
+				<a href="javascript:;">首页</a> |
+				<a href="javascript:;">招商合作</a> |
+				<a href="javascript:;">关于央广购物</a> |
+				<a href="javascript:;">联系我们</a> |
+				<a href="javascript:;">成为供应商</a> |
+				<a href="javascript:;">招贤纳士</a>
+			</p>
+			<p>
+				<i></i>
+				京公网安备：11011502002190&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">京ICP备10038858号</a>&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>&nbsp;&nbsp;
+				<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>
+			</p>
+			<p>
+				Copyright
+				<em style="font-family:Arial,Verdana; margin:0 4px">©</em>2010-2017 cnrmall.com All Rights Reserved&nbsp;&nbsp;&nbsp;&nbsp;服务热线：4008-518-518
+			</p>
+			<ul class="f-img">
+				<li  class="img01"><a href="javascript:;"></a></li>
+				<li class="img02"><a href="javascript:;" ></a></li>
+				<li class="img03"><a href="javascript:;" ></a></li>
+				<li  class="img04"><a href="javascript:;"></a></li>
+			</ul>
+		</div>
+</div>
+<!-- ! -->
+<script src="dist/js/jquery.js"></script>
+<script src="dist/js/carts.js"></script>
+</body>
+</html>
